@@ -38,7 +38,7 @@ The figure above shows the classification performance by how many components cre
 
 ![図２](https://i.imgur.com/rxzWhea.png,"図２")
 
-can be shown in the above.　It is rather obvious that thee sub classes are well separated on this plane. In addition to this, DIABLO has a function that select important features. 
+can be shown in the above.　It is rather obvious that three sub classes are well separated on this plane. In addition to this, DIABLO has a function that select important features. 
 
 ![図３](https://i.imgur.com/X6uT5I6.png,"図３")
 
