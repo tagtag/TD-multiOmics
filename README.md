@@ -87,3 +87,10 @@ The above table that lists top 10 ranked ones, <img src="https://latex.codecogs.
 
 Rows are samples(black:Basel, red:Her2, green:Luma), columns are omics (blue:mRNA,pink:miRNA,cyan:proteomics).
 Comapative to DIABLO, feature that allows hierarchical clautsering classify three subclasses are well selected.
+
+
+# Discussion
+
+[DIABLO](http://mixomics.org/mixdiablo/) is a fairly complicated calculation, you must create a design matrix on how to combine multi-omics data yourself, and use label information There is supervised learning. On the other hand, tensor decomposition is unsupervised learning, and what you are doing is simple. Actually, although I raised the execution code of R as tensor.R in this repository, it is simple enough to beat it. I feel a little unbelievable if I think that the same performance as DIABLO is done with this. However, DIABLO also thinks of the product between multi-omics data, and thinks that if it performs linear discrimination it may mean that the direction is not deviated so much in the meaning.
+
+In the tensor decomposition, the tensor becomes huge (in the present case, there are 150 × 200 × 184 × 142 elements), so there is a drawback that calculation time is required. Actually, although DIABLO can be executed by a lap-top, tensor decomposition can not be performed without a server machine with dozens of giga of memory. Nevertheless, in the future, tensor decomposition will be frequently used for multi-omics data analysis.
