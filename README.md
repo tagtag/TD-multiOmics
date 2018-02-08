@@ -81,3 +81,9 @@ The accuracy is as large as 0.94. Feature selection can be done using these two 
 |9   |  2 | 1 | 5 | 4 |   -6628.467 |
 |10  |  1 | 1 | 3 | 4 |   6623.046 |
 
+The above table that lists top 10 ranked ones, <img src="https://latex.codecogs.com/gif.latex?\ell_1=1,2,\ell_2=1,2,\ell_3=1,2,3,4" title="\ell_1=1,2,\ell_2=1,2,\ell_3=1,2,3,4" /> turn out to be selected. With assuming that <img src="https://latex.codecogs.com/gif.latex?x_{\ell_1i_1},x_{\ell_2i_2},x_{\ell_3i_3}" tile="x_{\ell_1i_1},x_{\ell_2i_2},x_{\ell_3i_3}"> obey multiple Gaussian distribution as null hypothesis、P-values are attributed to <img src="https://latex.codecogs.com/gif.latex?i_1,i_2,i_3" title="i_1,i_2,i_3">.  The top 10 <img src="https://latex.codecogs.com/gif.latex?i_1,i_2,i_3" title="i_1,i_2,i_3"> are selected respectively. 
+
+![heatmap.jpg](https://qiita-image-store.s3.amazonaws.com/0/199087/e1deb27d-3a3a-4184-eab8-2538aa482e4d.jpeg)
+
+Rows are samples(black:Basel, red:Her2, green:Luma), columns are omics (blue:mRNA,pink:miRNA,cyan:proteomics).
+Comapative to DIABLO, feature that allows hierarchical clautsering classify three subclasses are well selected.
