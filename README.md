@@ -55,3 +55,14 @@ After applying [HOSVD](https://en.wikipedia.org/wiki/Higher-order_singular_value
 
 <img src="https://latex.codecogs.com/gif.latex?x_{i_1i_2i_3j}&space;=&space;\sum_{\ell_1,\ell_2,\ell_3,\ell_4}&space;G(\ell_1,\ell_2,\ell_3,\ell_4)&space;x_{\ell_1i_1}x_{\ell_2i_2}x_{\ell_3i_3}x_{\ell_4j}" title="x_{i_1i_2i_3j} = \sum_{\ell_1,\ell_2,\ell_3,\ell_4} G(\ell_1,\ell_2,\ell_3,\ell_4) x_{\ell_1i_1}x_{\ell_2i_2}x_{\ell_3i_3}x_{\ell_4j}" />
 
+![plot.jpg](https://qiita-image-store.s3.amazonaws.com/0/199087/333c0a15-0509-dc34-4016-7168de3cfdca.jpeg)
+
+The above figure shows the embedding of 150 samples coposed of three sub classes into plane spaned by <img src="https://latex.codecogs.com/gif.latex?x_{\ell_1,j}" title="x_{\ell_1,k}" />, <img src="https://latex.codecogs.com/gif.latex?\ell_4=1,4" title="\ell_4=1,4" />. It is also obvious that 150 samples are well separated into three sab classes. Confusion table (rows: prediction, columns: true classes) obtained by linear discriminat analysis using these two components is
+
+|       |Basal |  Her2 |LumA |
+|:-----|----:|-----:|----:|
+| **Basal** |  **42** |     4 |    0|
+| **Her2**   |    2 |  **25**   |  2  |
+|  **LumA** |    1 |    1  | **73**  |
+
+The accuracy is as large as 0.94. 
