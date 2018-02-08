@@ -1,5 +1,5 @@
 # TD-multiOmics
-Tensor Based unsupervised feature extraction was applied to multiomics data which was used for performance evaluation of DAIBLO algorithm implemented in mixOmics pacage
+Tensor Based unsupervised feature extraction was applied to multiomics data which was used for performance evaluation of [DAIBLO](http://mixomics.org/mixdiablo/)algorithm implemented in [mixOmics package](http://mixomics.org/)
 
 # Introduction
 
