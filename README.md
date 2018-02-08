@@ -31,3 +31,11 @@ these say that there are 150 samples with 200 mRNA, 184 miRNA and 142 proteomics
 >\#\#    45    30    75
 
 as shown in  [DIABLO execution example](http://mixomics.org/mixmint/stemcells-example/).
+
+![図１](https://i.imgur.com/xX7SJXB.png,"図１")
+
+The figure above shows the classification performance by how many components created with DIABLO are used. The vertical axis is the error rate, but sufficient performance is obtained with the first two components. Also, the embedding of all 150 samples in this space
+
+![図２](https://i.imgur.com/rxzWhea.png,"図２")
+
+can be shown in the above.
