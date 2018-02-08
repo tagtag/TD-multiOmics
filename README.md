@@ -65,4 +65,19 @@ The above figure shows the embedding of 150 samples coposed of three sub classes
 | **Her2**   |    2 |  **25**   |  2  |
 |  **LumA** |    1 |    1  | **73**  |
 
-The accuracy is as large as 0.94. 
+The accuracy is as large as 0.94. Feature selection can be done using these two selected components.
+ <img src="https://latex.codecogs.com/gif.latex?G(\ell_1,\ell_2,\ell_3,\ell_4)" title="G(\ell_1,\ell_2,\ell_3,\ell_4)" /> are sorted by thier absolute values for <img src="https://latex.codecogs.com/gif.latex?\ell_4=1,4" title="\ell_4=1,4" />, <img src="https://latex.codecogs.com/gif.latex?\ell_1,\ell_2,\ell_3" title="\ell_1,\ell_2,\ell_3" /> with  <img src="https://latex.codecogs.com/gif.latex?G" title="G" /> having larger absolute values are selected.
+ 
+ | rank | $\ell_1$ | $\ell_2$ | $\ell_3$ |$\ell_4$ | $G(\ell_1,\ell_2,\ell_3,\ell_4)$ |
+|:---:|:---:|:---:|:---:|:---:|:--:|
+|1   |  1 | 1 | 1 | 1 |   -407857.582 |
+|2   |  1 | 1 | 4 | 4 |    -209720.615 |
+|3   |  2 | 1 | 1  |4 |    -20452.480 |
+|4   |  2 | 1 | 3 |1  |  -11677.505 |
+|5   |  2 | 1 | 4 |1  |  -10428.742 |
+|6   |  2 | 1 | 2 |1  |  10157.467 |
+|7   |  1 | 1 | 2 | 1 |  -8973.774 |
+|8   |  1 | 2 | 1 | 4 |   8360.976 |
+|9   |  2 | 1 | 5 | 4 |   -6628.467 |
+|10  |  1 | 1 | 3 | 4 |   6623.046 |
+
