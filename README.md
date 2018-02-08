@@ -68,7 +68,7 @@ The above figure shows the embedding of 150 samples coposed of three sub classes
 The accuracy is as large as 0.94. Feature selection can be done using these two selected components.
  <img src="https://latex.codecogs.com/gif.latex?G(\ell_1,\ell_2,\ell_3,\ell_4)" title="G(\ell_1,\ell_2,\ell_3,\ell_4)" /> are sorted by thier absolute values for <img src="https://latex.codecogs.com/gif.latex?\ell_4=1,4" title="\ell_4=1,4" />, <img src="https://latex.codecogs.com/gif.latex?\ell_1,\ell_2,\ell_3" title="\ell_1,\ell_2,\ell_3" /> with  <img src="https://latex.codecogs.com/gif.latex?G" title="G" /> having larger absolute values are selected.
  
- | rank | $\ell_1$ | $\ell_2$ | $\ell_3$ |$\ell_4$ | $G(\ell_1,\ell_2,\ell_3,\ell_4)$ |
+ | rank | <img src="https://latex.codecogs.com/gif.latex?\ell_1" title="\ell_1" /> | <img src="https://latex.codecogs.com/gif.latex?\ell_2" title="\ell_2" />  | <img src="https://latex.codecogs.com/gif.latex?\ell_3" title="\ell_3" /> |<img src="https://latex.codecogs.com/gif.latex?\ell_4" title="\ell_4" />  | <img src="https://latex.codecogs.com/gif.latex?G(\ell_1,\ell_2,\ell_3,\ell_4)" title="G(\ell_1,\ell_2,\ell_3,\ell_4)" /> |
 |:---:|:---:|:---:|:---:|:---:|:--:|
 |1   |  1 | 1 | 1 | 1 |   -407857.582 |
 |2   |  1 | 1 | 4 | 4 |    -209720.615 |
